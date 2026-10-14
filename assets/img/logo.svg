@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="100 160 280 236" role="img" aria-label="Logo de NokiCloud: nube trazada como pista de circuito impreso">
+  <g fill="none" stroke="#E7E2D9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 238 196 L 262 196 L 282 216 L 282 234" stroke-opacity="0.4" stroke-width="4"/>
+    <path d="M 150 240 L 135 255 L 135 285" stroke-opacity="0.4" stroke-width="4"/>
+    <path d="M 282 310 L 350 310 L 370 290 L 370 255 L 350 235 L 320 235 L 320 200 L 290 170 L 235 170 L 205 200 L 205 215 L 150 215 L 125 240 L 110 255 L 110 310 L 258 310" stroke-width="10"/>
+    <path d="M 160 310 L 160 352" stroke-width="6"/>
+    <path d="M 205 310 L 205 332 L 220 347 L 220 370" stroke-width="6"/>
+    <path d="M 330 310 L 330 346" stroke-width="6"/>
+    <circle cx="160" cy="362" r="10" stroke-width="5"/>
+    <circle cx="220" cy="380" r="10" stroke-width="5"/>
+    <circle cx="330" cy="356" r="10" stroke-width="5"/>
+    <circle cx="282" cy="242" r="7" stroke-width="4" stroke-opacity="0.6"/>
+    <circle cx="135" cy="293" r="7" stroke-width="4" stroke-opacity="0.6"/>
+    <rect x="254" y="300" width="32" height="20" rx="3" stroke-width="3"/>
+  </g>
+  <rect x="265" y="304" width="10" height="12" rx="1" fill="#5FB3B0"/>
+</svg>
