@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Administración de servidores · NokiCloud</title>
+  <meta name="description" content="Administración de servidores Linux: mantenimiento, copias de seguridad 3-2-1, monitorización 24/7 y planes mensuales. Proyecto académico ficticio.">
+  <meta name="theme-color" content="#0F1218">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/inter-tight-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <p class="notice"><strong>Proyecto académico ficticio.</strong> Datos, precios y contactos inventados.</p>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="NokiCloud, inicio">
+        <img src="assets/img/logo.svg" alt="" width="40" height="34">
+        <span>nokicloud</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="nav-toggle-text">Menú</span>
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="menu" aria-label="Principal">
+        <ul>
+          <li><a href="reparaciones.html">Reparaciones</a></li>
+          <li><a href="servidores.html" aria-current="page">Servidores</a></li>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="seguimiento.html">Seguimiento</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+        </ul>
+        <a class="btn btn-primary" href="nosotros.html#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Ruta de navegación">
+          <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li><span aria-current="page">Servidores</span></li>
+          </ol>
+        </nav>
+        <h1>Administración de <em>servidores Linux</em></h1>
+        <p class="lead">Mantenemos, vigilamos y protegemos los servidores de tu negocio, en tu oficina o en la nube, para que no tengas que pensar en ellos.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="nosotros.html?servicio=servidores#contacto">Solicitar una revisión
+            <span class="btn-arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5"/></svg></span>
+          </a>
+          <a class="btn btn-ghost" href="#planes">Ver planes</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="label">Qué hacemos</p>
+            <h2>Servicios de sistemas</h2>
+          </div>
+          <p>Trabajamos con servidores físicos y en la nube. Empezamos siempre con una revisión gratuita de 30 minutos.</p>
+        </div>
+        <ul class="service-list">
+            <li><a class="service-row" href="nosotros.html?servicio=servidores#contacto"><span class="num">01</span><span class="name">Administración Linux</span><span class="desc">Actualizaciones, usuarios, permisos y servicios en Debian, Ubuntu y Rocky Linux.</span><span class="go"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5"/></svg></span></a></li>
+            <li><a class="service-row" href="nosotros.html?servicio=servidores#contacto"><span class="num">02</span><span class="name">Copias de seguridad 3-2-1</span><span class="desc">Tres copias, dos soportes y una fuera de la oficina. Y las restauramos cada mes para comprobarlas.</span><span class="go"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5"/></svg></span></a></li>
+            <li><a class="service-row" href="nosotros.html?servicio=servidores#contacto"><span class="num">03</span><span class="name">Monitorización 24/7</span><span class="desc">Alertas de disco, memoria, servicios caídos y certificados a punto de caducar.</span><span class="go"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5"/></svg></span></a></li>
+            <li><a class="service-row" href="nosotros.html?servicio=servidores#contacto"><span class="num">04</span><span class="name">Migraciones a la nube</span><span class="desc">Planificamos y movemos tus servicios con el mínimo tiempo de parada.</span><span class="go"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5"/></svg></span></a></li>
+            <li><a class="service-row" href="nosotros.html?servicio=servidores#contacto"><span class="num">05</span><span class="name">Bastionado y seguridad</span><span class="desc">Cortafuegos, acceso por clave SSH, fail2ban, auditorías y certificados TLS.</span><span class="go"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5"/></svg></span></a></li>
+            <li><a class="service-row" href="nosotros.html?servicio=servidores#contacto"><span class="num">06</span><span class="name">Soporte con tiempos claros</span><span class="desc">Incidencias críticas atendidas en menos de una hora según el plan, con informe posterior.</span><span class="go"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5"/></svg></span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="planes">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="label">Planes</p>
+            <h2>Planes mensuales, <em>sin permanencia</em></h2>
+          </div>
+          <p>Precios orientativos con IVA incluido. Si necesitas algo distinto, lo ajustamos contigo.</p>
+        </div>
+        <div class="plans">
+          <article class="plan" data-reveal>
+            <div class="plan-head"><h3>Básico</h3></div>
+            <p class="price">49 € <small>/ mes</small></p>
+            <ul class="checks">
+              <li>1 servidor</li>
+              <li>Actualizaciones mensuales</li>
+              <li>Copia de seguridad semanal</li>
+              <li>Soporte en horario laboral</li>
+            </ul>
+            <a class="btn btn-ghost" href="nosotros.html?servicio=servidores#contacto">Me interesa
+            <span class="btn-arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5"/></svg></span>
+          </a>
+          </article>
+          <article class="plan featured" data-reveal>
+            <div class="plan-head"><h3>Profesional</h3><span class="badge">Más elegido</span></div>
+            <p class="price">129 € <small>/ mes</small></p>
+            <ul class="checks">
+              <li>Hasta 3 servidores</li>
+              <li>Monitorización 24/7 con alertas</li>
+              <li>Copia diaria y prueba de restauración mensual</li>
+              <li>Respuesta en menos de 4 horas</li>
+            </ul>
+            <a class="btn btn-dark" href="nosotros.html?servicio=servidores#contacto">Me interesa
+            <span class="btn-arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5"/></svg></span>
+          </a>
+          </article>
+          <article class="plan" data-reveal>
+            <div class="plan-head"><h3>Empresa</h3></div>
+            <p class="price">299 € <small>/ mes</small></p>
+            <ul class="checks">
+              <li>Hasta 10 servidores</li>
+              <li>Bastionado y auditoría trimestral</li>
+              <li>Copias 3-2-1 con réplica externa</li>
+              <li>Incidencias críticas en menos de 1 hora</li>
+            </ul>
+            <a class="btn btn-ghost" href="nosotros.html?servicio=servidores#contacto">Me interesa
+            <span class="btn-arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5"/></svg></span>
+          </a>
+          </article>
+        </div>
+        <p class="note"><strong>Revisión inicial gratuita:</strong> 30 minutos para ver cómo están tus servidores y qué plan encaja.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="label">Casos</p>
+            <h2>Trabajos <em>recientes</em></h2>
+          </div>
+          <p>Tres ejemplos de lo que hacemos. Los clientes y las cifras son inventados para este proyecto.</p>
+        </div>
+        <div class="cases-grid">
+          <article class="case" data-reveal>
+            <div class="case-cover cover-teal">
+              <svg viewBox="100 160 280 236" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M 282 310 L 350 310 L 370 290 L 370 255 L 350 235 L 320 235 L 320 200 L 290 170 L 235 170 L 205 200 L 205 215 L 150 215 L 125 240 L 110 255 L 110 310 L 258 310"/><path d="M160 310v40M205 310v22l15 15v22M330 310v36" stroke-width="6"/><rect x="254" y="300" width="32" height="20" rx="3" stroke-width="4"/></svg>
+              <ul class="tags"><li>Migración</li><li>Nube</li></ul>
+            </div>
+            <div class="case-meta"><h3>Gestoría Llanos</h3><span class="kind">Migración</span></div>
+            <p>Servidor de ficheros de 2016 migrado a la nube en un fin de semana. <strong>Cero horas de parada</strong> en horario laboral.</p>
+          </article>
+          <article class="case" data-reveal style="--d:1">
+            <div class="case-cover cover-dark">
+              <svg viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="20" y="18" width="80" height="24" rx="5"/><rect x="20" y="48" width="80" height="24" rx="5"/><rect x="20" y="78" width="80" height="24" rx="5"/><path d="M58 30h28M58 60h28M58 90h28"/><circle cx="33" cy="30" r="3" fill="#5FB3B0" stroke="none"/><circle cx="33" cy="60" r="3" fill="#5FB3B0" stroke="none"/><circle cx="33" cy="90" r="3" fill="currentColor" stroke="none"/><circle cx="43" cy="30" r="3"/><circle cx="43" cy="60" r="3"/><circle cx="43" cy="90" r="3"/></svg>
+              <ul class="tags"><li>Copias 3-2-1</li><li>Monitorización</li></ul>
+            </div>
+            <div class="case-meta"><h3>Clínica Veterinaria Arce</h3><span class="kind">Copias</span></div>
+            <p>Copias diarias cifradas y prueba de restauración mensual. <strong>Restauración completa en 38 minutos.</strong></p>
+          </article>
+          <article class="case" data-reveal style="--d:2">
+            <div class="case-cover cover-paper">
+              <svg viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M60 14 26 28v26c0 22 14.6 40.6 34 46 19.4-5.4 34-24 34-46V28L60 14Z"/><path d="m46 58 10 10 20-20"/></svg>
+              <ul class="tags"><li>Bastionado</li><li>Auditoría</li></ul>
+            </div>
+            <div class="case-meta"><h3>Academia Lumen</h3><span class="kind">Seguridad</span></div>
+            <p>Cortafuegos, acceso solo por clave SSH y auditoría trimestral. <strong>Cero incidencias</strong> en el último año.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div>
+          <p class="label">Dudas</p>
+          <h2>Preguntas <em>frecuentes</em></h2>
+          <p>¿Tienes otra duda? <a href="nosotros.html#contacto">Escríbenos</a>.</p>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>¿Trabajáis con servidores en la nube?</summary>
+            <p>Sí. Administramos servidores físicos en tu oficina y máquinas virtuales en proveedores de nube. El plan cuenta servidores, estén donde estén.</p>
+          </details>
+          <details>
+            <summary>¿Hay permanencia?</summary>
+            <p>No. Los planes son mensuales y puedes darte de baja cuando quieras avisando con 15 días. Te entregamos toda la documentación y las contraseñas.</p>
+          </details>
+          <details>
+            <summary>¿Qué pasa si el servidor se cae de madrugada?</summary>
+            <p>Con los planes Profesional y Empresa la monitorización avisa a nuestro técnico de guardia, que empieza a trabajar dentro del tiempo de respuesta de tu plan.</p>
+          </details>
+          <details>
+            <summary>¿Necesitáis acceso remoto?</summary>
+            <p>Sí, mediante una conexión segura por clave SSH que puedes revocar en cualquier momento. Todo lo que hacemos queda registrado en un informe mensual.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container">
+        <div class="cta-box" data-reveal>
+          <div>
+            <h2>¿Revisamos tu <em>servidor?</em></h2>
+            <p>La primera revisión es gratuita: 30 minutos para ver cómo está y qué necesita.</p>
+          </div>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="nosotros.html#contacto">Contactar
+            <span class="btn-arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5"/></svg></span>
+          </a>
+            <a class="btn btn-ghost" href="tel:+34600000000">Llamar&nbsp;al&nbsp;600&nbsp;000&nbsp;000</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a class="brand" href="index.html" aria-label="NokiCloud, inicio">
+            <img src="assets/img/logo.svg" alt="" width="40" height="34">
+            <span>nokicloud</span>
+          </a>
+          <p>Taller de reparación informática y administración de servidores. Empresa ficticia creada para un proyecto de clase.</p>
+        </div>
+        <div>
+          <h2>Servicios</h2>
+          <ul>
+            <li><a href="reparaciones.html">Reparaciones</a></li>
+            <li><a href="servidores.html">Servidores</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="seguimiento.html">Seguimiento</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Empresa</h2>
+          <ul>
+            <li><a href="nosotros.html">Quiénes somos</a></li>
+            <li><a href="nosotros.html#como-trabajamos">Cómo trabajamos</a></li>
+            <li><a href="nosotros.html#ubicacion">Dónde estamos</a></li>
+            <li><a href="nosotros.html#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Contacto</h2>
+          <ul>
+            <li><a href="tel:+34600000000">+34&nbsp;600&nbsp;000&nbsp;000</a></li>
+            <li><a href="mailto:hola@nokicloud.example">hola@nokicloud.example</a></li>
+            <li>L–V · 9:30–14:00 y 17:00–20:30</li>
+            <li>Sábados · 10:00–14:00</li>
+          </ul>
+        </div>
+      </div>
+      <p class="wordmark" aria-hidden="true">nokicloud</p>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> NokiCloud · Proyecto académico ficticio</span>
+        <nav aria-label="Legal">
+          <a href="aviso-legal.html">Aviso legal y privacidad</a>
+          <a href="#top">Volver arriba ↑</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

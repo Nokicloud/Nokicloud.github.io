@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>NokiCloud · Reparación informática y administración de servidores</title>
+  <meta name="description" content="NokiCloud es una tienda ficticia de reparación informática y administración de servidores, creada como proyecto académico.">
+  <meta name="theme-color" content="#0F1218">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/inter-tight-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <p class="notice"><strong>Proyecto académico ficticio.</strong> Datos, precios y contactos inventados.</p>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="NokiCloud, inicio">
+        <img src="assets/img/logo.svg" alt="" width="40" height="34">
+        <span>nokicloud</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="nav-toggle-text">Menú</span>
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="menu" aria-label="Principal">
+        <ul>
+          <li><a href="reparaciones.html">Reparaciones</a></li>
+          <li><a href="servidores.html">Servidores</a></li>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="seguimiento.html">Seguimiento</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+        </ul>
+        <a class="btn btn-primary" href="nosotros.html#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div>
+            <p class="label">Reparación · Servidores · Venta en tienda</p>
+            <h1>
+              <span class="line"><span style="--i:0">Reparamos tu equipo.</span></span>
+              <span class="line"><span style="--i:1"><em>Cuidamos tus servidores.</em></span></span>
+            </h1>
+            <p class="lead">Taller de reparación informática y administración de servidores Linux. Diagnóstico en 24–48 horas, presupuesto cerrado y seis meses de garantía.</p>
+            <div class="btn-row">
+              <a class="btn btn-primary" href="nosotros.html#contacto">Pedir presupuesto
+            <span class="btn-arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5"/></svg></span>
+          </a>
+              <a class="btn btn-ghost" href="#servicios">Ver servicios</a>
+            </div>
+          </div>
+
+          <aside class="track-card" aria-labelledby="track-title" data-reveal>
+            <span class="icon-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3.5h6v3H9z"/><path d="M15 5h2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></svg></span>
+            <h2 id="track-title">¿Ya nos has dejado tu equipo?</h2>
+            <p>Consulta en qué punto está la reparación con tu código de seguimiento.</p>
+            <form class="tracker-form" action="seguimiento.html" method="get">
+              <label class="visually-hidden" for="codigo-rapido">Código de seguimiento</label>
+              <input id="codigo-rapido" name="codigo" type="text" placeholder="NK-2026-0412" autocomplete="off" spellcheck="false" required>
+              <button class="btn btn-primary" type="submit">Consultar
+                <span class="btn-arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5"/></svg></span>
+              </button>
+            </form>
+            <small>Lo encontrarás en el resguardo que te dimos en la tienda.</small>
+          </aside>
+        </div>
+
+        <dl class="facts">
+          <div><dt>Diagnóstico</dt><dd>24–48 h</dd></div>
+          <div><dt>Garantía en reparaciones</dt><dd>6 meses</dd></div>
+          <div><dt>Antes de empezar</dt><dd>Precio cerrado</dd></div>
+          <div><dt>Vigilancia de servidores</dt><dd>24/7</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="label">Servicios</p>
+            <h2 data-reveal>Dos líneas de trabajo, <em>un mismo equipo.</em></h2>
+          </div>
+          <p data-reveal style="--d:1">Elige lo que necesitas. En cada página tienes los servicios, los precios orientativos y las preguntas más habituales.</p>
+        </div>
+
+        <div class="service-cards">
+          <article class="service-card" data-reveal>
+            <div class="service-card-media cover-teal"><svg viewBox="0 0 120 90" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="22" y="14" width="76" height="50" rx="4"/><path d="M10 74h100l-7-10H17z"/><path d="M33 40h13l5-10 8 19 5-9h23"/></svg></div>
+            <div class="service-card-body">
+              <span class="kind">Particulares y empresas</span>
+              <h3><a href="reparaciones.html">Reparaciones</a></h3>
+              <p>Portátiles, sobremesas y móviles. Lo diagnosticamos, te damos un precio cerrado y te lo devolvemos probado.</p>
+              <ul class="checks">
+                <li>Pantallas, baterías, discos SSD y memoria</li>
+                <li>Recuperación de datos</li>
+                <li>Limpieza, software y montaje a medida</li>
+              </ul>
+              <a class="btn btn-primary" href="reparaciones.html">Ver reparaciones
+            <span class="btn-arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5"/></svg></span>
+          </a>
+            </div>
+          </article>
+
+          <article class="service-card" data-reveal style="--d:1">
+            <div class="service-card-media cover-dark"><svg viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="20" y="18" width="80" height="24" rx="5"/><rect x="20" y="48" width="80" height="24" rx="5"/><rect x="20" y="78" width="80" height="24" rx="5"/><path d="M58 30h28M58 60h28M58 90h28"/><circle cx="33" cy="30" r="3" fill="#5FB3B0" stroke="none"/><circle cx="33" cy="60" r="3" fill="#5FB3B0" stroke="none"/><circle cx="33" cy="90" r="3" fill="currentColor" stroke="none"/><circle cx="43" cy="30" r="3"/><circle cx="43" cy="60" r="3"/><circle cx="43" cy="90" r="3"/></svg></div>
+            <div class="service-card-body">
+              <span class="kind">Empresas y autónomos</span>
+              <h3><a href="servidores.html">Administración de servidores</a></h3>
+              <p>Mantenemos tus servidores Linux al día, vigilados y con copias de seguridad que funcionan de verdad.</p>
+              <ul class="checks">
+                <li>Mantenimiento y actualizaciones</li>
+                <li>Copias de seguridad 3-2-1 y monitorización 24/7</li>
+                <li>Planes mensuales desde 49 €</li>
+              </ul>
+              <a class="btn btn-primary" href="servidores.html">Ver servidores
+            <span class="btn-arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5"/></svg></span>
+          </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="label">Catálogo</p>
+            <h2 data-reveal>Equipos revisados, <em>listos para llevar.</em></h2>
+          </div>
+          <p data-reveal style="--d:1">Portátiles y móviles reacondicionados, componentes y accesorios. Míralos aquí con calma y cómpralos en la tienda.</p>
+        </div>
+        <div class="product-grid" data-destacados aria-live="polite"></div>
+        <noscript><p class="muted">Activa JavaScript para ver los productos destacados o entra en el <a href="catalogo.html">catálogo</a>.</p></noscript>
+        <div class="catalog-more">
+          <a class="btn btn-ghost" href="catalogo.html">Ver todo el catálogo
+            <span class="btn-arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container">
+        <div class="cta-box" data-reveal>
+          <div>
+            <h2>¿Tu equipo <em>no arranca?</em></h2>
+            <p>Pásate por la tienda o escríbenos. Te respondemos en menos de un día laborable con un presupuesto orientativo.</p>
+          </div>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="nosotros.html#contacto">Contactar
+            <span class="btn-arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5"/></svg></span>
+          </a>
+            <a class="btn btn-ghost" href="tel:+34600000000">Llamar&nbsp;al&nbsp;600&nbsp;000&nbsp;000</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a class="brand" href="index.html" aria-label="NokiCloud, inicio">
+            <img src="assets/img/logo.svg" alt="" width="40" height="34">
+            <span>nokicloud</span>
+          </a>
+          <p>Taller de reparación informática y administración de servidores. Empresa ficticia creada para un proyecto de clase.</p>
+        </div>
+        <div>
+          <h2>Servicios</h2>
+          <ul>
+            <li><a href="reparaciones.html">Reparaciones</a></li>
+            <li><a href="servidores.html">Servidores</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="seguimiento.html">Seguimiento</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Empresa</h2>
+          <ul>
+            <li><a href="nosotros.html">Quiénes somos</a></li>
+            <li><a href="nosotros.html#como-trabajamos">Cómo trabajamos</a></li>
+            <li><a href="nosotros.html#ubicacion">Dónde estamos</a></li>
+            <li><a href="nosotros.html#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Contacto</h2>
+          <ul>
+            <li><a href="tel:+34600000000">+34&nbsp;600&nbsp;000&nbsp;000</a></li>
+            <li><a href="mailto:hola@nokicloud.example">hola@nokicloud.example</a></li>
+            <li>L–V · 9:30–14:00 y 17:00–20:30</li>
+            <li>Sábados · 10:00–14:00</li>
+          </ul>
+        </div>
+      </div>
+      <p class="wordmark" aria-hidden="true">nokicloud</p>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> NokiCloud · Proyecto académico ficticio</span>
+        <nav aria-label="Legal">
+          <a href="aviso-legal.html">Aviso legal y privacidad</a>
+          <a href="#top">Volver arriba ↑</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/datos-catalogo.js"></script>
+  <script src="assets/js/catalogo.js"></script>
+</body>
+</html>
